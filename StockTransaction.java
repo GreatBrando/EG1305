@@ -16,6 +16,7 @@ public class StockTransaction {
 		double commissionForSelling = COMMISSION_RATE * amountReceivedFromStocks;    // Amount Of Commission Joe paid his broker when he was selling stocks
 		
 		double profitMade = ( amountReceivedFromStocks - commissionForSelling) - ( amountPaidForStocks - commissionForBuying);  // Total Profit Joe Made
+		//This formula is not correct. First calculate the profit: sold - bought, then take off the commissions to find the net profit.
 		
 		//Prints out information
 		System.out.println("The Amount of Money Joe Paid For The Stocks: $" + amountPaidForStocks);                                
