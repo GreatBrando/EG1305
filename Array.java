@@ -2,7 +2,6 @@
 //Date:4/17/2017
 //Class: EG1305 A
 /* Instructions: Write the Array program so that it asks the user to enter a series of number.  */
-
 import java.util.Scanner;
 
 public class Array {
