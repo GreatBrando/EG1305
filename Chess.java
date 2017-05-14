@@ -2,7 +2,6 @@
 //Date:3/20/2017
 //Class: EG1305 A
 /* Instructions: Write a Chess class that will compute the solution to the wheat and chessboard problem. */
-
 public class Chess {
 	
 	public static void main(String[] args){
