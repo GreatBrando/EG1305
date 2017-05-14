@@ -1,4 +1,3 @@
-
 public class Fan {
 	
 	private int speed;
